@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Lab1.srcs/sources_1/new/priority_encoder.vhd" \
+"../../../../Lab1.srcs/1_enc_sim/new/1_pr_tb.vhd" \
+
+# Do not sort compile order
+nosort
