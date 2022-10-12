@@ -1,0 +1,7 @@
+Running: xsim.dir/enc_parr_tb_behav/xsimk.exe -simmode gui -wdb enc_parr_tb_behav.wdb -simrunnum 0 -socket 56677
+Design successfully loaded
+Design Loading Memory Usage: 5832 KB (Peak: 5832 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 7024 KB (Peak: 7024 KB)
+Simulation CPU Usage: 62 ms

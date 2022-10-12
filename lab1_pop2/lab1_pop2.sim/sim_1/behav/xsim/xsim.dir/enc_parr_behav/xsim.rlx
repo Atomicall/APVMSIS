@@ -1,0 +1,12 @@
+
+{ 
+    crc :  120052432302313244  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 8ffc1d568a5b408fb6c7bacaa9198658 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot enc_parr_behav xil_defaultlib.enc_parr" , 
+    buildDate : "Jun 14 2018" , 
+    buildTime : "20:41:02" , 
+    linkCmd : "D:\\programs\\Vivado\\2018.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/enc_parr_behav/xsimk.exe\"   \"xsim.dir/enc_parr_behav/obj/xsim_0.win64.obj\" \"xsim.dir/enc_parr_behav/obj/xsim_1.win64.obj\" \"D:\\programs\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simulator_kernel.dll\"  \"D:\\programs\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simbridge_kernel.dll\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
