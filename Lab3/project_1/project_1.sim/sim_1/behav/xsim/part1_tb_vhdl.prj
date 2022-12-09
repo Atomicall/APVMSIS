@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../srcs/enc_parr.vhd" \
+"../../../../srcs/enc_posled.vhd" \
+"../../../../project_1.srcs/sources_1/new/part1.vhd" \
+"../../../../project_1.srcs/sim_1/new/part1_tb.vhd" \
+
+# Do not sort compile order
+nosort

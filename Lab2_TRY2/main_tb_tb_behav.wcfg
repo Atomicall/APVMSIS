@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="main_tb_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="main_tb_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000001fs"></ZoomEndTime>
+      <Cursor1Time time="785498000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="118"></NameColumnWidth>
+      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/main_tb_tb/SCLR_NOT_S" type="logic">
+      <obj_property name="ElementShortName">SCLR_NOT_S</obj_property>
+      <obj_property name="ObjectShortName">SCLR_NOT_S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb_tb/SLOAD_NOT_S" type="logic">
+      <obj_property name="ElementShortName">SLOAD_NOT_S</obj_property>
+      <obj_property name="ObjectShortName">SLOAD_NOT_S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb_tb/CLK_S" type="logic">
+      <obj_property name="ElementShortName">CLK_S</obj_property>
+      <obj_property name="ObjectShortName">CLK_S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb_tb/ACLR_NOT_S" type="logic">
+      <obj_property name="ElementShortName">ACLR_NOT_S</obj_property>
+      <obj_property name="ObjectShortName">ACLR_NOT_S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb_tb/ALOAD_NOT_S" type="logic">
+      <obj_property name="ElementShortName">ALOAD_NOT_S</obj_property>
+      <obj_property name="ObjectShortName">ALOAD_NOT_S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb_tb/A_S" type="logic">
+      <obj_property name="ElementShortName">A_S</obj_property>
+      <obj_property name="ObjectShortName">A_S</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb_tb/B_S" type="logic">
+      <obj_property name="ElementShortName">B_S</obj_property>
+      <obj_property name="ObjectShortName">B_S</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb_tb/C_S" type="logic">
+      <obj_property name="ElementShortName">C_S</obj_property>
+      <obj_property name="ObjectShortName">C_S</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb_tb/D_S" type="logic">
+      <obj_property name="ElementShortName">D_S</obj_property>
+      <obj_property name="ObjectShortName">D_S</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb_tb/CCO_S" type="logic">
+      <obj_property name="ElementShortName">CCO_S</obj_property>
+      <obj_property name="ObjectShortName">CCO_S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb_tb/RCO_S" type="logic">
+      <obj_property name="ElementShortName">RCO_S</obj_property>
+      <obj_property name="ObjectShortName">RCO_S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb_tb/QA_S" type="logic">
+      <obj_property name="ElementShortName">QA_S</obj_property>
+      <obj_property name="ObjectShortName">QA_S</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb_tb/QB_S" type="logic">
+      <obj_property name="ElementShortName">QB_S</obj_property>
+      <obj_property name="ObjectShortName">QB_S</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb_tb/QC_S" type="logic">
+      <obj_property name="ElementShortName">QC_S</obj_property>
+      <obj_property name="ObjectShortName">QC_S</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb_tb/QD_S" type="logic">
+      <obj_property name="ElementShortName">QD_S</obj_property>
+      <obj_property name="ObjectShortName">QD_S</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb_tb/clock_period" type="other">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb_tb/OE_NOT_S" type="logic">
+      <obj_property name="ElementShortName">OE_NOT_S</obj_property>
+      <obj_property name="ObjectShortName">OE_NOT_S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb_tb/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+</wave_config>

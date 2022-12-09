@@ -1,0 +1,350 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Nov 28 17:46:56 2022
+# Process ID: 12140
+# Current directory: C:/Users/vlad/Desktop/lab2/lab2.runs/synth_1
+# Command line: vivado.exe -log Scheme.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Scheme.tcl
+# Log file: C:/Users/vlad/Desktop/lab2/lab2.runs/synth_1/Scheme.vds
+# Journal file: C:/Users/vlad/Desktop/lab2/lab2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Scheme.tcl -notrace
+Command: synth_design -top Scheme -part xc7a200tfbg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10456 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 409.230 ; gain = 96.324
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Scheme' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/imports/new/Scheme.vhd:15]
+INFO: [Synth 8-3491] module 'main' declared at 'C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/main.vhd:5' bound to instance 'counter' of component 'main' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/imports/new/Scheme.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'main' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/main.vhd:29]
+INFO: [Synth 8-3491] module 'w5' declared at 'C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/w5.vhd:34' bound to instance 'WTF5' of component 'w5' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/main.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'w5' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/w5.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'w5' (1#1) [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/w5.vhd:55]
+INFO: [Synth 8-3491] module 'w2' declared at 'C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/w2.vhd:34' bound to instance 'D4' of component 'w2' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/main.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'w2' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/w2.vhd:48]
+INFO: [Synth 8-3491] module 'dff' declared at 'C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/dff.vhd:4' bound to instance 'dflip' of component 'dff' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/w2.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'dff' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/dff.vhd:14]
+INFO: [Synth 8-5837] Detected dual asynchronous set and preset for register Q_reg in module dff. This is not a recommended register style for Xilinx devices  [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/dff.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'dff' (2#1) [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/dff.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'w2' (3#1) [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/w2.vhd:48]
+INFO: [Synth 8-3491] module 'w2' declared at 'C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/w2.vhd:34' bound to instance 'D3' of component 'w2' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/main.vhd:99]
+INFO: [Synth 8-3491] module 'w2' declared at 'C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/w2.vhd:34' bound to instance 'D2' of component 'w2' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/main.vhd:102]
+INFO: [Synth 8-3491] module 'w2' declared at 'C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/w2.vhd:34' bound to instance 'D1' of component 'w2' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/main.vhd:105]
+INFO: [Synth 8-3491] module 'w3' declared at 'C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/w3.vhd:34' bound to instance 'N4' of component 'w3' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/main.vhd:114]
+INFO: [Synth 8-638] synthesizing module 'w3' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/w3.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'w3' (4#1) [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/w3.vhd:40]
+INFO: [Synth 8-3491] module 'w3' declared at 'C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/w3.vhd:34' bound to instance 'N3' of component 'w3' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/main.vhd:115]
+INFO: [Synth 8-3491] module 'w3' declared at 'C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/w3.vhd:34' bound to instance 'N2' of component 'w3' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/main.vhd:116]
+INFO: [Synth 8-3491] module 'w3' declared at 'C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/w3.vhd:34' bound to instance 'N1' of component 'w3' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/main.vhd:117]
+INFO: [Synth 8-256] done synthesizing module 'main' (5#1) [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/new/main.vhd:29]
+INFO: [Synth 8-3491] module 'IBUFDS' declared at 'D:/programs/Vivado/2018.2/scripts/rt/data/unisim_comp.v:19488' bound to instance 'buffds' of component 'ibufds' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/imports/new/Scheme.vhd:138]
+INFO: [Synth 8-6157] synthesizing module 'IBUFDS' [D:/programs/Vivado/2018.2/scripts/rt/data/unisim_comp.v:19488]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUFDS' (6#1) [D:/programs/Vivado/2018.2/scripts/rt/data/unisim_comp.v:19488]
+INFO: [Synth 8-3491] module 'Div' declared at 'C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/imports/new/Div.vhd:34' bound to instance 'divider' of component 'Div' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/imports/new/Scheme.vhd:144]
+INFO: [Synth 8-638] synthesizing module 'Div' [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/imports/new/Div.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Div' (7#1) [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/imports/new/Div.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Scheme' (8#1) [C:/Users/vlad/Desktop/lab2/lab2.srcs/sources_1/imports/new/Scheme.vhd:15]
+WARNING: [Synth 8-3331] design Scheme has unconnected port ledsboard[2]
+WARNING: [Synth 8-3331] design Scheme has unconnected port ledsboard[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 464.211 ; gain = 151.305
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 464.211 ; gain = 151.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 464.211 ; gain = 151.305
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/vlad/Desktop/lab2/lab2.srcs/constrs_1/imports/new/top.xdc]
+WARNING: [Vivado 12-507] No nets matched 'pushbuttons_IBUF[4]'. [C:/Users/vlad/Desktop/lab2/lab2.srcs/constrs_1/imports/new/top.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/vlad/Desktop/lab2/lab2.srcs/constrs_1/imports/new/top.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/vlad/Desktop/lab2/lab2.srcs/constrs_1/imports/new/top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/vlad/Desktop/lab2/lab2.srcs/constrs_1/imports/new/top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Scheme_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Scheme_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 819.105 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 819.105 ; gain = 506.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 819.105 ; gain = 506.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 819.105 ; gain = 506.199
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "i" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 819.105 ; gain = 506.199
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module dff 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Div 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "divider/i" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "divider/temp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design Scheme has unconnected port ledsboard[2]
+WARNING: [Synth 8-3331] design Scheme has unconnected port ledsboard[1]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 819.105 ; gain = 506.199
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 835.977 ; gain = 523.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 836.238 ; gain = 523.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 846.383 ; gain = 533.477
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 846.383 ; gain = 533.477
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 846.383 ; gain = 533.477
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 846.383 ; gain = 533.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 846.383 ; gain = 533.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 846.383 ; gain = 533.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 846.383 ; gain = 533.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT2   |     1|
+|4     |LUT3   |    12|
+|5     |LUT4   |     7|
+|6     |LUT5   |     7|
+|7     |LUT6   |     4|
+|8     |FDCE   |     4|
+|9     |FDPE   |     4|
+|10    |FDRE   |    33|
+|11    |LDC    |     4|
+|12    |IBUF   |     9|
+|13    |IBUFDS |     1|
+|14    |OBUF   |     2|
+|15    |OBUFT  |     6|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------+-------+------+
+|      |Instance    |Module |Cells |
++------+------------+-------+------+
+|1     |top         |       |   103|
+|2     |  counter   |main   |    32|
+|3     |    D1      |w2     |     6|
+|4     |      dflip |dff_5  |     6|
+|5     |    D2      |w2_0   |     8|
+|6     |      dflip |dff_4  |     8|
+|7     |    D3      |w2_1   |     8|
+|8     |      dflip |dff_3  |     8|
+|9     |    D4      |w2_2   |    10|
+|10    |      dflip |dff    |    10|
+|11    |  divider   |Div    |    52|
++------+------------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 846.383 ; gain = 533.477
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 846.383 ; gain = 178.582
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 846.383 ; gain = 533.477
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 22 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  LDC => LDCE: 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+48 Infos, 5 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 859.895 ; gain = 559.816
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/vlad/Desktop/lab2/lab2.runs/synth_1/Scheme.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Scheme_utilization_synth.rpt -pb Scheme_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.098 . Memory (MB): peak = 859.895 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 28 17:47:32 2022...

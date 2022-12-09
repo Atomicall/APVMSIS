@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vlad/Desktop/lab2/lab2/Lab2.srcs/sim_2/new/dff_sim2_td.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dff_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vlad/Desktop/lab2/lab2/Lab2.srcs/sim_2/new/main_sim2_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity main_tb

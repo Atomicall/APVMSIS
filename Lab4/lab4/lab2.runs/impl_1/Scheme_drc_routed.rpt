@@ -1,0 +1,62 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Nov 28 17:49:39 2022
+| Host         : DESKTOP-QB9OBFA running 64-bit major release  (build 9200)
+| Command      : report_drc -file Scheme_drc_routed.rpt -pb Scheme_drc_routed.pb -rpx Scheme_drc_routed.rpx
+| Design       : Scheme
+| Device       : xc7a200tfbg676-2
+| Speed File   : -2
+| Design State : Routed
+------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 5
++----------+----------+--------------------------------+------------+
+| Rule     | Severity | Description                    | Violations |
++----------+----------+--------------------------------+------------+
+| CFGBVS-3 | Warning  | CONFIG_VOLTAGE Design Property | 1          |
+| PDRC-153 | Warning  | Gated clock check              | 4          |
++----------+----------+--------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+CFGBVS-3#1 Warning
+CONFIG_VOLTAGE Design Property  
+The CONFIG_VOLTAGE property is not set for current_design. To indicate what the configuration bank VCCO will be, the CONFIG_VOLTAGE property must be set to 1.5, 1.8, 2.5, 3.3.  Refer to device configuration user guide for more information.
+Related violations: <none>
+
+PDRC-153#1 Warning
+Gated clock check  
+Net counter/D1/dflip/Q_reg_LDC_i_1__2_n_0 is a gated clock net sourced by a combinational pin counter/D1/dflip/Q_reg_LDC_i_1__2/O, cell counter/D1/dflip/Q_reg_LDC_i_1__2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net counter/D2/dflip/Q_reg_LDC_i_1__1_n_0 is a gated clock net sourced by a combinational pin counter/D2/dflip/Q_reg_LDC_i_1__1/O, cell counter/D2/dflip/Q_reg_LDC_i_1__1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#3 Warning
+Gated clock check  
+Net counter/D3/dflip/Q_reg_LDC_i_1__0_n_0 is a gated clock net sourced by a combinational pin counter/D3/dflip/Q_reg_LDC_i_1__0/O, cell counter/D3/dflip/Q_reg_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#4 Warning
+Gated clock check  
+Net counter/D4/dflip/Q_reg_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin counter/D4/dflip/Q_reg_LDC_i_1/O, cell counter/D4/dflip/Q_reg_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+

@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../sources/dff.vhd" \
+"../../../../sources/main.vhd" \
+"../../../../sources/w2.vhd" \
+"../../../../sources/w3.vhd" \
+"../../../../sources/w5.vhd" \
+"../../../../Lab2_TRY2.srcs/simulationSet/new/main_tb_tb.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,80 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Nov 28 17:48:20 2022
+| Host         : DESKTOP-QB9OBFA running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Scheme_control_sets_placed.rpt
+| Design       : Scheme
+| Device       : xc7a200t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    14 |
+| Unused register locations in slices containing registers |    78 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |           12 |
+|      4 |            1 |
+|    16+ |            1 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               4 |            1 |
+| No           | No                    | Yes                    |              16 |            8 |
+| No           | Yes                   | No                     |              70 |           12 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------+---------------+---------------------------------------+------------------+----------------+
+|              Clock Signal              | Enable Signal |            Set/Reset Signal           | Slice Load Count | Bel Load Count |
++----------------------------------------+---------------+---------------------------------------+------------------+----------------+
+|  divider/CCK                           |               | counter/D1/dflip/Q_reg_LDC_i_2__2_n_0 |                1 |              2 |
+|  divider/CCK                           |               | counter/D1/dflip/Q_reg_LDC_i_1__2_n_0 |                1 |              2 |
+|  divider/CCK                           |               | counter/D3/dflip/Q_reg_LDC_i_1__0_n_0 |                1 |              2 |
+|  divider/CCK                           |               | counter/D2/dflip/Q_reg_LDC_i_2__1_n_0 |                1 |              2 |
+|  divider/CCK                           |               | counter/D2/dflip/Q_reg_LDC_i_1__1_n_0 |                1 |              2 |
+|  divider/CCK                           |               | counter/D3/dflip/Q_reg_LDC_i_2__0_n_0 |                1 |              2 |
+|  divider/CCK                           |               | counter/D4/dflip/Q_reg_LDC_i_2_n_0    |                1 |              2 |
+|  divider/CCK                           |               | counter/D4/dflip/Q_reg_LDC_i_1_n_0    |                1 |              2 |
+|  counter/D1/dflip/Q_reg_LDC_i_1__2_n_0 |               | counter/D1/dflip/Q_reg_LDC_i_2__2_n_0 |                1 |              2 |
+|  counter/D3/dflip/Q_reg_LDC_i_1__0_n_0 |               | counter/D3/dflip/Q_reg_LDC_i_2__0_n_0 |                1 |              2 |
+|  counter/D2/dflip/Q_reg_LDC_i_1__1_n_0 |               | counter/D2/dflip/Q_reg_LDC_i_2__1_n_0 |                1 |              2 |
+|  counter/D4/dflip/Q_reg_LDC_i_1_n_0    |               | counter/D4/dflip/Q_reg_LDC_i_2_n_0    |                1 |              2 |
+|  o_BUFG                                |               |                                       |                1 |              4 |
+|  o_BUFG                                |               | divider/temp                          |                8 |             62 |
++----------------------------------------+---------------+---------------------------------------+------------------+----------------+
+
+

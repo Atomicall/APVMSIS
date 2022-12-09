@@ -1,0 +1,18 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 6bf66d4d4b4040acac3a2ef9461d4480 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Scheme_behav xil_defaultlib.Scheme -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-122] ibufds remains a black-box since it has no binding entity [D:/_University_/7 term/APVMiS/Lab 4/lab2/lab2.srcs/sources_1/imports/new/Scheme.vhd:128]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.JK_trigger [jk_trigger_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter [counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Div [div_default]
+Compiling architecture behavioral of entity xil_defaultlib.scheme
+Built simulation snapshot Scheme_behav

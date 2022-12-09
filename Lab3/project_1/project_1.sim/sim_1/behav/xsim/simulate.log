@@ -1,0 +1,9 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Note: !!!!RESULTS are the same!
+Time: 5170 ns  Iteration: 0  Process: /part1_tb2/stimuli  File: D:/Labs/7sem/APVMSIS/Lab3/project_1/project_1.srcs/sim_1/new/part1_tb2.vhd
+FATAL_ERROR: Vivado Simulator kernel has discovered an exceptional condition from which it cannot recover. Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.
+Time: 5220 ns  Iteration: 0  Process: /part1_tb2/stimuli
+  File: D:/Labs/7sem/APVMSIS/Lab3/project_1/project_1.srcs/sim_1/new/part1_tb2.vhd
+
+HDL Line: D:/Labs/7sem/APVMSIS/Lab3/project_1/project_1.srcs/sim_1/new/part1_tb2.vhd:57

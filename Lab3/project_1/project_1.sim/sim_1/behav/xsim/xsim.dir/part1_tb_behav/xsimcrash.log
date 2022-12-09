@@ -1,0 +1,9 @@
+Exception at PC 0x00007FFD3EC9771E
+Attemped to read address 0x0000000000000000
+Printing stacktrace...
+
+[0]  [0x00007FFD3EC9771E]
+[1]  [0x00007FFD3EC9771E]
+[2] (iki_std_textio_readline+0xdf) [0x00007FFD3ED36C7F]
+[3]  [0x00000000004087C5]
+Done

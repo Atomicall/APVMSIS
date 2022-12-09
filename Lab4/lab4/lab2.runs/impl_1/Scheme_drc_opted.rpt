@@ -1,0 +1,41 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Nov 28 17:48:13 2022
+| Host         : DESKTOP-QB9OBFA running 64-bit major release  (build 9200)
+| Command      : report_drc -file Scheme_drc_opted.rpt -pb Scheme_drc_opted.pb -rpx Scheme_drc_opted.rpx
+| Design       : Scheme
+| Device       : xc7a200tfbg676-2
+| Speed File   : -2
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 1
++----------+----------+--------------------------------+------------+
+| Rule     | Severity | Description                    | Violations |
++----------+----------+--------------------------------+------------+
+| CFGBVS-3 | Warning  | CONFIG_VOLTAGE Design Property | 1          |
++----------+----------+--------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+CFGBVS-3#1 Warning
+CONFIG_VOLTAGE Design Property  
+The CONFIG_VOLTAGE property is not set for current_design. To indicate what the configuration bank VCCO will be, the CONFIG_VOLTAGE property must be set to 1.5, 1.8, 2.5, 3.3.  Refer to device configuration user guide for more information.
+Related violations: <none>
+
+

@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../sources/w3.vhd" \
+"../../../../Lab2_TRY2.srcs/simulationSet/new/inverterW3_tb.vhd" \
+
+# Do not sort compile order
+nosort

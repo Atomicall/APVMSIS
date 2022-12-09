@@ -1,0 +1,1 @@
+-wto "6bf66d4d4b4040acac3a2ef9461d4480" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "JK_trigger_behav" "xil_defaultlib.JK_trigger" -log "elaborate.log" 
